@@ -1,0 +1,15 @@
+{
+  "name": "swjtufans-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate-course-data": "node scripts/generate-course-data.js",
+    "dev": "npm run generate-course-data && vite",
+    "build": "npm run generate-course-data && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0"
+  }
+}
