@@ -46,11 +46,18 @@
 
 2. **设置GitHub Pages**：
    - 滚动到"GitHub Pages"部分。
-   - 在"Source"下拉菜单中，选择"main"分支。
+   - 在"Source"下拉菜单中，选择"Deploy from a branch"。
+   - 在"Branch"下拉菜单中，选择"gh-pages"分支（如果不存在，等待GitHub Actions创建）。
    - 在"Folder"下拉菜单中，选择"/(root)"。
    - 点击"Save"按钮。
 
 3. **等待部署**：GitHub Pages会自动构建和部署你的网站。部署完成后，你会在"GitHub Pages"部分看到网站的URL。
+
+4. **检查部署状态**：
+   - 在GitHub仓库页面，点击"Actions"选项卡，查看部署工作流的运行状态。
+   - 确保工作流执行成功，没有错误。
+
+5. **等待生效**：GitHub Pages部署后可能需要几分钟时间才能生效，请耐心等待。
 
 ## 4. 构建和部署优化
 
